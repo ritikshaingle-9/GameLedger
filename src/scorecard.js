@@ -14,12 +14,12 @@ export default function Scorecard(){
       return;
     }
 
-    if(scoreA==MAX_SCORE){
+    if(scoreA === MAX_SCORE){
       setWinner("Team A");
       toast.success('Team A wins!!');
     }
 
-    if(scoreB==MAX_SCORE){
+    if(scoreB === MAX_SCORE){
       setWinner("Team B");
       toast.success('Team B wins!!');
     }
